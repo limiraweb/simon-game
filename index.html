@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>A Javascript Simon Game by Lisarko8077</title>
+        <meta name="description" content="Simon Game, an old mwmory game">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="main.css">
+        <script src="https://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript" ></script>
+        <script src="simon.js" type="text/javascript" ></script>
+    </head>
+    <body>
+
+
+
+        <div id="container">
+            <div id="simon-container">
+
+                <div class="rect">
+
+                    <div id ="3" class="but green t-left unclickable"></div>
+
+                    <div id="2" class="but red t-right unclickable"></div>
+
+                </div> <!-- END RECT -->
+
+                <div class="rect">
+
+                    <div id ="1" class="but yellow b-left unclickable"></div>
+
+                    <div id="0" class="but blue b-right unclickable"></div>
+
+                </div> <!-- END RECT -->
+
+            </div> <!-- END SIMON CONTAINER -->
+
+            <div id="system">
+
+                <h1 class="name">Simon Game</h1>
+                <div id="play-area">
+                    <div id="count">
+                        <div id="num"></div>
+                        <p>Count</p>
+                    </div>
+                    <div id="start">
+                        <div class="butt unclickable"></div>
+                        <p>Start</p>
+                    </div>
+                    <div id="strict">
+                        <div class="butt unclickable"></div>
+                        <p>Strict</p>
+                    </div>
+                </div> <!-- END Play-Area -->
+                <div id="power">
+                    <p>OFF</p>
+                    <div id="switch-box">
+                        <div class="switch"></div>
+
+                    </div>
+                    <p>ON</p>
+                </div>
+
+            </div>
+
+        </div> <!-- END CONTAINER -->
+
+
+    </body>
+</html>
